@@ -1,0 +1,136 @@
+.sweets {
+  margin-top: 80px;
+}
+
+.sweet-cards {
+  flex: 9;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.sweet-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.sweets-cards-image {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+.sweets-cards-image img {
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.sweet-describe a {
+  color: rgb(82, 182, 193);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sweet-describe {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.sweet-card-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  word-spacing: 4px;
+  width: 60%;
+}
+
+.sweet-card-text p {
+  text-indent: 40px;
+}
+
+.button-more {
+  padding: 20px;
+}
+
+.button-more button {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #3d3d40;
+  transition: ease-out 0.4s;
+  box-shadow: inset 0 0 0 0 #f1c40f;
+  cursor: pointer;
+}
+
+.button-card {
+  align-items: center;
+  text-transform: uppercase;
+  color: #e4c873;
+  font-size: 14px;
+  border: 1.5px solid #e4c873;
+  border-top-left-radius: 4px;
+}
+
+.button-card .card-button-info {
+  width: 16px;
+  margin-right: 4px;
+  margin-bottom: 2px;
+  align-items: center;
+}
+
+.card-more-info {
+  text-decoration: none;
+}
+
+.button-card:hover {
+  transition: ease-out 0.4s;
+  color: #23232d;
+}
+
+.slide-inside button:hover {
+  box-shadow: inset 0 0 0 50px #f1c40f;
+  transition: ease-out 0.4s;
+}
+
+@media screen and (max-width: 850px) {
+  .sidebar {
+    display: none;
+  }
+  .sweet-cards {
+    padding: 10px;
+  }
+  .sweet-describe {
+    gap: 10px;
+  }
+  .sweet-card-text {
+    font-size: 14px;
+    gap: 20px;
+    width: 80%;
+  }
+  .sweet-card-text a {
+    font-size: 16px;
+  }
+  .button-more button {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sweet-describe {
+    flex-direction: column;
+  }
+  .sweet-container {
+    width: 250px;
+  }
+  .sweet-card-text {
+  }
+}

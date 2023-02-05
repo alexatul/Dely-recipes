@@ -1,0 +1,35 @@
+.stars-rating button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.on {
+  color: #e4c873;
+}
+
+.off {
+  color: #ccc;
+}
+
+.stars-rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.stars-rating p {
+  position: relative;
+  padding: 10px;
+  font-size: 14px;
+  top: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  .stars-rating button {
+    font-size: 20px;
+  }
+}

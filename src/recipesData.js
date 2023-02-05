@@ -1,0 +1,738 @@
+export const recipesData = [
+  {
+    id: 1,
+    title: "Tiramisu",
+    image: "/images/tiramisu1.jpg",
+    time: "40 minute",
+    servings: 10,
+    describe:
+      "Tiramisu este un desert traditional italian. Este un desert care are la baza biscuiti savoiardi ( asemanatori cu piscoturile) inmuiati in cafea si acoperiti cu o crema de mascarpone.",
+    ingredients: [
+      { name: "mascarpone", quantity: "500g" },
+      { name: "oua", quantity: 4 },
+      { name: "zahar", quantity: "150g" },
+      { name: "piscoturi", quantity: "400g" },
+      { name: "cafea", quantity: "300ml" },
+      { name: "cacao", quantity: "pudra" },
+    ],
+    text1:
+      "Separam galbenusurile de albusuri si mixam galbenusurile cu zaharul pana cand zaharul este topit complet si compozitia devine cremoasa.",
+    text2:
+      "Adaugam mascarponele si amestecam cu o spatula, pana cand il incorporam in compozitia de oua. Mixam albusurile pana cand devin spuma tare si cu ajutorul unei spatule le incorporam, cu miscari circulare.",
+    text3:
+      "Preparam cafeaua si o lasam deoparte sa se raceasca. Scufundam piscoturile in cafea, lasandu-le in functie de cat de insiropate le dorim. Asezam piscoturile insiropate cu cafea pe funstul unui vas. Adaugam un strat de crema apoi un noi rand de piscoturi. Punem ultimul strat de crema, nivelam si deasupra, cu ajutorul unei site, presaram cacao.",
+    text4:
+      " Pentru un gust desavarsit este important sa folosim o cacao de calitate. Dam la frigider peste noapte, apoi il putem servi.",
+    img1: "/images/tiramisu.jpg",
+    img2: "/images/tiramisu2.jpg",
+    img3: "/images/tiramisu3.jpg",
+    img4: "/images/tiramisu4.jpg",
+    img5: "/images/tiramisu5.jpg",
+    img6: "/images/tiramisu6.jpg",
+    img7: "/images/tiramisu1.jpg",
+    category: "sweets",
+    path: "/sweets/",
+  },
+  {
+    id: 2,
+    title: "Cremsnit",
+    image: "/images/cremsnit.jpg",
+    time: "1 ora",
+    servings: 14,
+    describe:
+      "Cremsnitul este o prajitura preparata din foi de aluat coapte, intre care se pune crema de vanilie. Pentru prima data la noi apare in cartea de bucate a Sandei Marin (1936).",
+    ingredients: [
+      { name: "lapte", quantity: "1l" },
+      { name: "oua", quantity: 5 },
+      { name: "zahar", quantity: "200g" },
+      { name: "amidon", quantity: "200g" },
+      { name: "unt", quantity: "100g" },
+      { name: "esenta de vanilie", quantity: "1" },
+      { name: "aluat de foitaj", quantity: "900g" },
+    ],
+    text1:
+      "Pentru crema, se pune laptele la fiert cu vanilia, la foc mic. In acest timp, se bat albusurile cu zaharul (cu mixerul) pana se obtine o spuma tare si lucioasa; se adauga pe rand galbenusurile si apoi amidonul sau faina.",
+    text2:
+      " Aceasta compozitie se toarna peste laptele care fierbe, amestecand bine cu o lingura mare de lemn. Se amesteca in continuare pana ce compozitia se ingroasa. Cand crema este groasa bine, se ia de pe foc si se pune untul taiat in cubulete, amestecand pana se absoarbe totul. Se omogenizeaza si se obtine o crema lucioasa.",
+    text3:
+      "Crema se lasa la racit la temperatura camerei, acoperita cu folie transparenta (folia sa atinga crema, ca sa nu faca pojghita) si apoi se pastreaza in frigider peste noapte, sa se intareasca. Se pune prima foaie de aluat intr-o tava, apoi se toarna crema peste si deasupra se sfarama cea de-a doua foaie.",
+    text4: " Se serveste a doua zi pudrata cu zahar pudra sau simpla.",
+    img1: "/images/cremsnit1.jpg",
+    img2: "/images/cremsnit2.jpg",
+    img3: "/images/cremsnit3.jpg",
+    img4: "/images/cremsnit4.jpg",
+    img5: "/images/cremsnit5.jpg",
+    img6: "/images/cremsnit6.jpg",
+    img7: "/images/cremsnit7.jpg",
+    category: "sweets",
+    path: "/sweets/",
+  },
+  {
+    id: 3,
+    title: "Cozonac",
+    image: "/images/cozonac.jpg",
+    time: "4 ore",
+    servings: 20,
+    describe:
+      "Cozonacul este o prajitura traditionala romaneasca, fiind in mod traditional gatita de Paste sau de Craciun, dar si in afara sarbatorilor la pofta doritorilor.",
+    ingredients: [
+      { name: "faina", quantity: "550g (aprox - pentru un cozonac)" },
+      { name: "lapte", quantity: "200ml" },
+      { name: "unt", quantity: "70g" },
+      { name: "oua", quantity: 2 },
+      { name: "galbenusuri", quantity: 3 },
+      { name: "zahar", quantity: "15g" },
+      { name: "drojdie uscata", quantity: "14g" },
+      { name: "ulei", quantity: "3 linguri" },
+      { name: "sare", quantity: "1 varf de lingurita" },
+      { name: "esenta de rom", quantity: 1 },
+      { name: "nuca", quantity: "200g" },
+      { name: "zahar", quantity: "150g" },
+      { name: "cacao", quantity: "5 linguri" },
+      { name: "albusuri", quantity: 2 },
+      { name: "rahat", quantity: "100g" },
+    ],
+    text1:
+      "Se incalzeste laptele, se adauga zaharul si se amesteca pana se topeste.  Intr-un bol se pune faina, ouale, drojdia, sarea si esenta. Treptat, se aduaga laptele, untul topit si uleiul framantand pana ce aluatul 'face basici'. Se lasa aluatul la crescut 1-2 ore pana ce isi dubleaza volumul.",
+    text2:
+      "Intre timp se face compozitia de umplutura albusul se bate bine cu zaharul, apoi se adauga cacaua, esenta si nuca macinata si se amesteca incet cu o spatula. Se imparte aluatul pe jumatate, se intinde si se pune peste o parte din compozitia de cacao (opptional se pot bune bucatele de rahat). Se ruleaza prima bucata si se procedeaza la fel ca la prima, si cu cea de a doua bucata. ",
+    text3:
+      "Se impletesc cele 2 bucati, se pune in forma de cozonac cu hartie de copt si se lasa la crescut inca aproximativ 30 de minute. Intre timp se preincalzeste cuptorul la 180°C.",
+    text4:
+      "La sfarsit se unge cozonacul cu ou si se presara deasupra putin zahar, apoi se baga la cuptor cam o ora.",
+    img1: "/images/cozonac1.jpg",
+    img2: "/images/cozonac2.jpeg",
+    img3: "/images/cozonac3.jpeg",
+    img4: "/images/cozonac4.jpeg",
+    img5: "/images/cozonac5.jpg",
+    img6: "/images/cozonac6.jpg",
+    img7: "/images/cozonac.jpg",
+    category: "sweets",
+    path: "/sweets/",
+  },
+  {
+    id: 4,
+    title: "Paleuri cu gem",
+    image: "/images/paleuri.jpg",
+    time: "1 ora si jumatate",
+    servings: 26,
+    describe:
+      "Paleuri cu gem, reteta veche de la bunici asa cum se faceau pe vremuri, fragede si foarte gustoase. Se pot face cu diferite umpluturi (ciocolata, gem de caise, gem de prune etc).",
+    ingredients: [
+      { name: "oua", quantity: 4 },
+      { name: "faina", quantity: "400g" },
+      { name: "zahar", quantity: "250g" },
+      { name: "ulei", quantity: "250ml" },
+      { name: "galbenusuri", quantity: 3 },
+      { name: "bicarbonat de sodiu", quantity: "1/2 lgt" },
+      { name: "sare", quantity: "un praf de" },
+      { name: "gem de fructe", quantity: "150g" },
+    ],
+    text1:
+      "Intr-un castron mixam ouale cu un praf de sare si zaharul , apoi adaugam uleiul treptat sau untul moale, zeama de la lamaie si coaja rasa , iar la sfarsit faina amestecata cu bicarbonatul (sau stingem bicarbonatul cu putin otet).",
+    text2:
+      "Cu ajutorul unei lingurite, punem din compozitie, intr-o tava unsa cu putin ulei si tapetata cu hartie pentru copt. ",
+    text3:
+      "Dam tava la cuptor, la 180 grade elsius, pentru 7 minute; trebuie multa atentie, pentru ca se ard foarte repede.",
+    text4:
+      "Dupa ce s-au racit prajiturele, ungem cu gem fiecare parte. Apoi impreunam bucatile 2 cate 2.",
+    img1: "/images/paleuri1.jpg",
+    img2: "/images/paleuri2.jpg",
+    img3: "/images/paleuri3.jpg",
+    img4: "/images/paleuri4.jpg",
+    img5: "/images/paleuri5.jpg",
+    img6: "/images/paleuri6.jpg",
+    img7: "/images/paleuri.jpg",
+    category: "sweets",
+    path: "/sweets/",
+  },
+  {
+    id: 5,
+    title: "Tort cu ciocolata alba si zmeura",
+    image: "/images/tort-cioco-alba.jpg",
+    time: "2 ore",
+    servings: 12,
+    describe:
+      "Tort cu crema de ciocolata alba si zmeura este un tort deosebit, dulce-acrisor, pentru diverse evenimente speciale. Zmeura se poate inlocui foarte usor cu alte fructe.",
+    ingredients: [
+      { name: "oua", quantity: 5 },
+      { name: "faina", quantity: "11 linguri" },
+      { name: "zahar", quantity: "8 linguri" },
+      { name: "ulei", quantity: "5 linguri" },
+      { name: "praf de copt", quantity: 1 },
+      { name: "bicarbonat de sodiu", quantity: "1/2 lgt" },
+      { name: "ciocolata alba", quantity: "300g" },
+      { name: "frisca lichida", quantity: "300ml" },
+      { name: "apa", quantity: "150ml" },
+      { name: "esenta de vanilie", quantity: 1 },
+      { name: "zmeura", quantity: "300g" },
+    ],
+    text1:
+      "Facem mai intai blatul.Mixam ouale cu 5 linguri de zahar pana se topeste zaharul si compozitia de vine cremoasa. Incorporam uleiul. Adaugam faina si praful de copt si omogenizam. Turnam compozitia in  forma de tort cu margini detasabile, tapetata cu hartie de copt.  Dam la cuptor la foc mediu pana se rumeneste usor. Dupa ce se raceste taiem blatul in doua.",
+    text2:
+      "Intr-un vas punem zmeura si 3 linguri de zahar. Adaugam 50 ml apa si fierbem pana se incheaga siropul si zmeura devine pasta. Asezam primul blat pe un platou si punem in jurul lui inelul reglabil pentru tort. Facem un sirop din apa, zahar si esenta de vanilie si dupa ce se racoreste insiropam blatul. Intindem peste blat jumatate din compozitia de zmeura. ",
+    text3:
+      "Topim ciocolata alba impreuna cu frisca lichida pe baie de abur si o dam la rece de preferat peste noapte. Daca va grabiti puteti sa o bagati la congelator cateva ore. Mixam compozitia astfel obtinuta o intindem peste blat si nivelam.  Intindem zmeura ramasa peste celalalt blat apoi asezam blatul deasupra cremei astfel incat stratul de zmeura sa fie chiar deasupra celui de crema.",
+    text4:
+      "Dam la frigider tortul pentru cel putin doua trei ore pana se intareste crema. Indepartam cu grija inelul din jurul tortului. Topim ciocolataimpreuna cu frisca lichida pe baie de aburi si turnam glazura astfel obtinuta pe tort. Daca doriti puteti imbraca unuform si lateralele, eu l-am lasat asa fiindca tortul l-am mancat in familie si oricum nu mai aveam timp sa il dichisesc.",
+    img1: "/images/tort-cioco-alba1.jpg",
+    img2: "/images/tort-cioco-alba2.jpg",
+    img3: "/images/tort-cioco-alba3.jpg",
+    img4: "/images/tort-cioco-alba4.jpg",
+    img5: "/images/tort-cioco-alba5.jpg",
+    img6: "/images/tort-cioco-alba6.jpg",
+    img7: "/images/tort-cioco-alba7.jpg",
+
+    category: "cakes",
+  },
+  {
+    id: 6,
+    title: "Tort cu cafea",
+    image: "/images/tort-cafea.jpg",
+    time: "2 ore si jumatate",
+    servings: 10,
+    describe:
+      "Tortul cu cafea este un tort complex insa extraordinar de gustos, mai ales pentru iubitorii de cafea.",
+    ingredients: [
+      { name: "unt", quantity: "200g" },
+      { name: "lapte", quantity: "1 cana" },
+      { name: "zahar", quantity: "2 cani" },
+      { name: "faina", quantity: "1 si 1/2 cana" },
+      { name: "praf de copt", quantity: 1 },
+      { name: "cacao", quantity: "3 linguri" },
+      { name: "cafea", quantity: "4 lingurite" },
+      { name: "oua", quantity: 4 },
+      { name: "piscoturi", quantity: "200g" },
+      { name: "apa", quantity: "350ml" },
+      { name: "frisca lichida", quantity: "500ml" },
+      { name: "iaurt", quantity: "500ml" },
+      { name: "gelatina", quantity: "2 plicuri" },
+      { name: "sticksuri finetti", quantity: "500gr" },
+    ],
+    text1:
+      "Preparam mai intai blatul. Intr-un vas punem laptele, zaharul, untul, cacao si cafeaua. Dam in cateva clocote apoi dam deoparte sa se raceasca. Cand s-a racit complet adaugam galbenusurile. Punem faina si praful de copt, omogenizam, apoi punem albusurile batute spuma tare, incorporandu-le usor in compozitie cu o lingura de lemn. Punem compozitia obtinuta in forma de tort tapetata cu hartie de copt si dam la cuptor. Dupa ce s-a racit taiem blatul in doua.",
+    text2:
+      "Apoi batem frisca lichida pana incepe sa se lege. Adaugam zaharul si cafeaua si batem pana devine ferma. Punem iaurtul intr-un vas amestecam cu o lingura pana devine cremos. Punem gelatina intr-un castronel cu doua-trei linguri apa si o lasam 1 minut sa se hidrateze. Punem deasupra unui vas la bain-marie pana se dizolva granulele. Adaugam in compozitia de iaurt si omogenizam avand grija sa se distribuie uniform in toata compozitia. Adaugam compozitia de frisca peste compozitia de iaurt si incorporam.",
+    text3:
+      "Punem primul blat pe un platou si punem in jurul lui inelul pentru tort. Pregatim siropul: caramelizam zaharul, adaugam apoi apa si mestecam pana se dizolva caramelul. Dam deoparte si adaugam pliculetul de capucino. Dupa ce se raceaste insiropam primul blat cu jumatate din cantitatea de sirop. Pastram deoparte 4-5 linguri de crema pentru deasupra. Punem peste blat jumatate din cantitatea de crema si nivelam. Pregatim dinainte o cafea . Rupem in doua piscoturile de cafea si le insiropam cu cafea. Atentie doar le cufundam rapid in cafea. Asezam piscoturile de cafea circular peste crema acoperind toata suprafata.",
+    text4:
+      "Punem peste ele crema ramasa si nivelam. Asezam ultimul blat, il insiropam, iar deasupra intindem in strat subtire crema lasata deoparte.  Dam la frigider peste noapte. Desprindem usor marginile tortului cu un cutit trecut prin apa fierbinte. Indepartam inelul din jurul tortului. Topim ciocolata impreuna cu frisca lichida. Pentru decor glazuram cateva sticksuri cu finetti pe jumatate si le lipim pe marginea tortului formand un fel de grilaj. Dam la frigider si lasam sa se intareasca. Pentru decor putem sa mai putem cateva boabe de cafea deasupra",
+    img1: "/images/tort-cafea1.jpg",
+    img2: "/images/tort-cafea2.jpg",
+    img3: "/images/tort-cafea3.jpg",
+    img4: "/images/tort-cafea4.jpg",
+    img5: "/images/tort-cafea5.jpg",
+    img6: "/images/tort-cafea6.jpg",
+    img7: "/images/tort-cafea7.jpg",
+    category: "cakes",
+    path: "/cakes/",
+  },
+  {
+    id: 7,
+    title: "Tort trio",
+    image: "/images/tort-trio.jpg",
+    time: "3 ore",
+    servings: 10,
+    describe:
+      "Tortul cu trei feluri de ciocolata este un tort decadent, cu multa ciocolata, un tort bun si satios, un tort care, in ciuda aparentelor, nu este deloc greu de pregatit.",
+    ingredients: [
+      { name: "oua", quantity: 3 },
+      { name: "zahar", quantity: "150g" },
+      { name: "faina", quantity: "3 linguri" },
+      { name: "apa", quantity: "150ml" },
+      { name: "ciocolata amaruie", quantity: "240g" },
+      { name: "frisca lichida", quantity: "800ml" },
+      { name: "ciocolata cu lapte", quantity: "240g" },
+      { name: "gelatina", quantity: "15 g" },
+      { name: "frisca lichida", quantity: "500ml" },
+      { name: "ciocolata alba", quantity: "240g" },
+    ],
+    text1:
+      "Mai intai vom pregati blatul. Mixam albusurile pana devin ferme apoi adaugam zaharul si mixam pana obtinem o bezea. Adaugam galbenusurile si le incorporam. Adaugam cacao si faina si amestecam cu o spatula, cu grija ca sa nu se lasa. Turnam compozitia in forma de tort cu margini detasabile, tapetata cu hartie de copt. Coacem in cuptorul preincalzit, la 180 grade, pentru 15 minute. Asezam blatul pe platoul pe care vom monta tortul. Pregatim siropul astfel: caramelizam zaharul si cand acesta este total topit adaugam apa, cu atentie sa nu ne ranim. Lasam pe foc pana cand caramelul este complet topit. Dam deoparte siropul ca sa se racoreasca. Punem in jurul blatului inelul reglabil pentru tort. Insiropam blatul.",
+    text2:
+      "Pregatim prima crema. Punem 120ml smantana lichida impreuna cu ciocolata amaruie rupta cubulete, intr-un vas, la foc mic. Amestecam pana cand ciocolata este complet topita. Lasam deoparte sa se racoreasca (dar nu sa se intareasca). Adaugam ciocolata topita si espresso peste 120ml frisca batuta. Amestecam cu ajutorul unei spatule pana cand se incorporeaza. Intindem crema peste blat si nivelam cu o spatula.",
+    text3:
+      "Pregatim apoi crema de ciocolata cu lapte.   Punem smantana lichida impreuna cu ciocolata cu lpte rupta cubulete, intr-un vas, la foc mic. Amestecam pana cand ciocolata este complet topita. Lasam deoparte sa se racoreasca (dar nu sa se intareasca) Adaugam ciocolata topita peste frisca batuta, adaugam si pastaia tonka rasa si incorporam. Pregatim gelatina conform indicatiilor de pe ambalaj si o incorporam in crema. Turnam crema de ciocolata cu lapte peste crema de ciocolata amaruie. Fiindca aceasta crema este mai lichida o vom da la frigider cat pregatim crema de ciocolata alba. Eu m-am grabit si am bagat-o 5 minute la congelator. Pregatim crema de ciocolata alba.  Punem smantana lichida impreuna cu ciocolata alba rupta cubulete, intr-un vas, la foc mic si amestecam pana cand ciocolata este complet topita. Foarte mare atentie fiindca ciocolata alba este mai pretentioasa si daca o lasati mai mult decat trebuie puteti compromite crema. ",
+    text4:
+      "Lasam deoparte sa se racoreasca. Adaugam ciocolata topita peste frisca batuta, adaugam si extractul de vanilie si o incorporam cu grija. Preparam gelatina conform indicatiilor de pe ambalaj si o incorporam. Turnam crema de  ciocolata alba peste crema de ciocolata cu lapte si dam la rece. Pregatim apoi glazura. Punem smantana lichida impreuna cu ciocolata amaruie rupta cubulete intr-un vas, la foc mic. Amestecam pana cand ciocolata este complet topita si apoi o lasam deoparte ca sa se raceasca, dar nu o lasati foarte mult fiindca se va intari. Pastram deoparte cateva linguri pentru decor. Imediat ce s-a racit vom glazura tortul si apoi il putem decora cum vrem.",
+    img1: "/images/tort-trio.jpg",
+    img2: "/images/tort-trio2.jpg",
+    img3: "/images/tort-trio3.jpg",
+    img4: "/images/tort-trio4.jpg",
+    img5: "/images/tort-trio5.jpg",
+    img6: "/images/tort-trio6.jpg",
+    img7: "/images/tort-trio7.jpg",
+    category: "cakes",
+    path: "/cakes/",
+  },
+  {
+    id: 8,
+    title: "Tort cu mascarpone si capsuni",
+    image: "/images/tort-mascarpone.jpg",
+    time: "1 ora",
+    servings: 14,
+    describe:
+      "Este un tort simplu, cu gust racoros, si este mai ales pe gustul celor mici! Se mai poate numi si tiramisu cu capsuni, fiind un desert aparte.",
+    ingredients: [
+      { name: "piscoturi", quantity: "200g" },
+      { name: "capsuni", quantity: "500g" },
+      { name: "zahar", quantity: "4 linguri" },
+      { name: "mascarpone", quantity: "250g" },
+      { name: "zahar", quantity: "50g" },
+      { name: "frisca lichida", quantity: "200ml" },
+      { name: "cacao", quantity: "1 lingura" },
+    ],
+    text1:
+      "Curatam capsunele si le taiem cubulete. Le amestecam cu zaharul si le punem intr-o sita. Le lasam circa o ora timp in care le mai amestecam ca sa se topeasca bine zaharul. Cu siropul care s-a scurs de la capsuni vom insiropa piscoturile. Restul de sirop rezultat il puteti servi cu apa minerala, este foarte bun! Rupem bucati fursecurile si le asezam pe fundul unei forme de tort cu margini detasabile (diametru forma 18 cm). Eu am tapetat si peretii cu hartie de copt, acest procedeu insa nu este obligatoriu.",
+    text2:
+      "Peste piscoturi asezam un strat de capsuni. Frecam mascarponele cu zaharul pudra pana capata consistenta cremoasa. Batem smantana dulce pana devine ferma si amestecam cu mascarponele paana cand este incorporat complet.",
+    text3:
+      "Peste stratul de capsuni asezam un strat de crema. Continuam cu un strat de piscoturi, unul de capsuni si la final inca unul de crema. Presaram deasupra cacao pe toata suprafata. Decoram cu capsuni si frunzulite de menta. Pentru ca am facut doua tortulete pe cel pentru mama mea l-am decorat cu cacao, iar cel pentru copii l-am decorat doar cu capsune pe care le-am asezat uniform pe toata suprafata.  ",
+    text4:
+      "Dam la frigider pentru cel putin doua trei ore si apoi il taiem felii.",
+    img1: "/images/tort-mascarpone1.jpg",
+    img2: "/images/tort-mascarpone2.jpg",
+    img3: "/images/tort-mascarpone3.jpg",
+    img4: "/images/tort-mascarpone4.jpg",
+    img5: "/images/tort-mascarpone5.jpg",
+    img6: "/images/tort-mascarpone6.jpg",
+    img7: "/images/tort-mascarpone.jpg",
+    category: "cakes",
+    path: "/cakes/",
+  },
+
+  {
+    id: 9,
+    title: "Ciorba de perisoare",
+    image: "/images/ciorba-perisoare.jpg",
+    time: "2 ore",
+    servings: 8,
+    describe:
+      " Ciorba de perisoare este un preparat autentic romanesc. Ciorba de perioase este una dintre cele mai indragite si mai gustoase ciorbe. ",
+    ingredients: [
+      { name: "carne de porc", quantity: "600g" },
+      { name: "orez", quantity: "120g" },
+      { name: "unt", quantity: "45g" },
+      { name: "sare", quantity: "18g" },
+      { name: "oua", quantity: "2" },
+      { name: "ceapa", quantity: "2" },
+      { name: "ardei gras", quantity: "2" },
+      { name: "morcovi", quantity: "2" },
+      { name: "telina", quantity: "1" },
+      { name: "patrunjel", quantity: "o mana de" },
+      { name: "bors", quantity: "1/2l" },
+      { name: "bulion", quantity: "20ml" },
+    ],
+    text1:
+      "Spalam bine carnea de porc si apoi o tocam. Pana ne apucam de formarea perisoarelor lasam carnea la frigider.",
+    text2:
+      "Toate zarzavaturile pentru ciorba de perisoare se curaţa, se toaca marunt sau se trec prin razatoare. Se pun la calit in oala in care va fierbe ciorba. Dupa ce s-au inmuiat, se pun la fiert in apa cu sare.",
+    text3:
+      "intre timp, pentru perişoare se amesteca toate ingredientele. Se pune la calit ceapa, apoi se adauga orezul (prefiert). Se lasa pentru un minut pe foc, dupa care se adauga apa si se lasa sa clocoteasca pentru cateva minute. Carnea tocata se amesteca cu orezul, oul, verdeturile tocate, sare si piper. Apoi, intre palmele umezite se formeaza mici perişoare.",
+    text4:
+      "Odata ce legumele sunt fierte, se pun perişoarele una cate una, cu grija şi zeama cu care se acreşte. Se lasa la fiert aproximativ 10 minute pana ce perişoarele se ridica la suprafaţa. Ciorba de perişoare se gusta de sarat şi acru, se trage de pe foc şi se pune patrunjelul fin tocat.",
+    img1: "/images/ciorba-perisoare.jpg",
+    img2: "/images/ciorba-perisoare2.jpg",
+    img3: "/images/ciorba-perisoare3.jpg",
+    img4: "/images/ciorba-perisoare4.jpg",
+    img5: "/images/ciorba-perisoare5.jpg",
+    img6: "/images/ciorba-perisoare6.jpg",
+    img7: "/images/ciorba-perisoare7.jpg",
+    category: "foods",
+    path: "/foods/",
+  },
+  {
+    id: 10,
+    title: "Paste carbonara",
+    image: "/images/paste-carbonara.jpg",
+    time: "30 minute",
+    servings: 6,
+    describe:
+      "O reteta de paste Carbonara cremoasa, cu sos de smantana, parmezan ras si cu adevarat savuroasa!  Reţeta de paste carbonara este una dintre preparatele cheie ale bucatariei italiene.",
+    ingredients: [
+      { name: "paste", quantity: "250g" },
+      { name: "apa", quantity: "3l" },
+      { name: "sare", quantity: "3 lingurite" },
+      { name: "kaiser", quantity: "200g" },
+      { name: "ulei", quantity: "10ml" },
+      { name: "cascaval", quantity: "100g" },
+    ],
+    text1:
+      "Fierbem pastele dupa instructiunile de pe ambalaj. Intre timp taiem kaiserul in bucatele mici. Intr-o tigaie, pune uleiul la incins si prajeste putin kaiserul pana cand se rumeneste usor.",
+    text2:
+      "Daca a ramas mult ulei, scurge-l si in aceeasi tigaie, pune peste kaiser smantana pentru gatit si o cescuta de apa in care au fiert pastele.",
+    text3:
+      "Lasa sa fiarba totul la foc mic, adauga sare dupa gust, un praf de piper si lasa sa fiarba pana cand se incheaga sosul. Pune pastele intr-un bol incapator, adauga sosul peste acestea si amesteca, incat sa inglobeze tot sosul.",
+    text4:
+      "Pentru servire, portioneaza pastele Carbonara in farfurii potrivite si presara parmezan ras fin, pe razatoarea mica. Daca ai putin busuioc verde, nu e nici un pacat daca decorezi pastele Carbonara cu o frunzulita - pentru o pata de culoare. ",
+    img1: "/images/paste-carbonara1.jpg",
+    img2: "/images/paste-carbonara2.jpg",
+    img3: "/images/paste-carbonara3.jpg",
+    img4: "/images/paste-carbonara4.jpg",
+    img5: "/images/paste-carbonara5.jpg",
+    img6: "/images/paste-carbonara6.png",
+    img7: "/images/paste-carbonara.jpg",
+    category: "foods",
+    path: "/foods/",
+  },
+  {
+    id: 11,
+    title: "Ostropel de pui cu mamaliga",
+    image: "/images/ostropel.jpg",
+    time: "40 minute",
+    servings: 4,
+    describe:
+      "Ostropelul de pui, la fel ca si alte feluri de mancare, se numara printre alimentele romanesti care nu au echivalent in strainatate. Prin urmare, este vazut ca un element de baza al bucatariei traditionale romanesti.",
+    ingredients: [
+      { name: "carne de pui", quantity: "1kg" },
+      { name: "bulion", quantity: "250g" },
+      { name: "usturoi", quantity: "4 catei" },
+      { name: "sare", quantity: "un praf de" },
+      { name: "marar", quantity: "1 lagatura" },
+      { name: "faina", quantity: "2 linguri" },
+      { name: "apa", quantity: "5 linguri" },
+      { name: "malai", quantity: "1 cana" },
+    ],
+    text1:
+      "Pregatim copanelele, le spalam si le tamponam su servete absorbante. Le prajim in ulei, pe ambele parti, dar nu de tot, ci doar cat sa se rumeneasca usor. Adaugam usturoiul pisat si lasam atat cat sa isi elibereze aromele. Nu il lasati sa se arda fiindca va deveni amar si va strica tot gustul ostropelului. ",
+    text2:
+      "Adaugam bulionul si il lasam 1-2 minute. Va recomand sa folositi sos de rosii facut in casa, pentru a obtine un ostropel cat mai gustos. Adaugam apa cat sa acopere copanelele, punem sare, piper si foi de dafin si lasam sa fiarba la foc mic.",
+    text3:
+      "Intre timp se prepara mamaliga. Se pun 3 cani de apa la fiert, putin ulei, putina sare dupa gust si apoi se pune in ploaie malaiul si se amesteca bine sa nu prinda cocoloase.",
+    text4:
+      "Cand carnea este bine fiarta si a scazut sosul pregatim rantasul din faina. Intr-un pahar desfacem faina cu cateva linguri de apa rece, apoi adaugam pasta obtinuta in sos, amestecand continuu. Lasam sa fiarba cateva minute, cat sa se gateasca faina si sa se ingroase sosul. Dam deoparte si adaugam mararul tocat marunt. Ostropelul de pui cu mamaliga este gata!",
+    img1: "/images/ostropel1.jpg",
+    img2: "/images/ostropel2.jpg",
+    img3: "/images/ostropel3.jpg",
+    img4: "/images/ostropel4.jpg",
+    img5: "/images/ostropel5.jpg",
+    img6: "/images/ostropel6.jpg",
+    img7: "/images/ostropel.jpg",
+    category: "foods",
+    path: "/foods/",
+  },
+  {
+    id: 12,
+    title: "Ceafa de porc cu piure",
+    image: "/images/ceafa-porc.jpg",
+    time: "1 ora si jumatate",
+    servings: 6,
+    describe:
+      "Este printre cele mai usoare retete pentru prepararea unei mese de zi cu zi. O friptura deosebita ce merge foarte bine cu un piure de cartofi alaturi, fiind servita dupa preferinte cu salata de varza sau muraturi",
+    ingredients: [
+      { name: "carne de porc", quantity: "1kg" },
+      { name: "vin alb", quantity: "100ml" },
+      { name: "apa", quantity: "150ml" },
+      { name: "usturoi", quantity: "1 capatana" },
+      { name: "marar", quantity: "1 lagatura" },
+      { name: "sare", quantity: "un praf de" },
+      { name: "cartofi", quantity: "700g" },
+      { name: "unt", quantity: "50g" },
+      { name: "lapte", quantity: "80ml" },
+    ],
+    text1:
+      "Spalam ceafa de porc, o tamponam cu servete absorbante, o condimentam cu sare si piper si o asezam intr-o tava. Adaugam capatana de usturoi taiata in doua, pe latime, vinul si apa. ",
+    text2:
+      "Dam la cuptor, la 250 grade, pentru circa 30-40 minute. La jumatea timpului vom intoarce bucatile de ceafa pe partea cealalta. Intre timp, cat sta ceafa de porc la cuptor ne apucam sa preparam piureul de cartofi.",
+    text3:
+      "Curatam cartofii de coaja. Ii taiem cubulete, ii spama bine sub jetul de apa, apoi ii pune la fiert in apa cu sare circa 20 minute pana devin moi cartofii. Cand sunt gata ii scurgem de apa, ii pisam adaugand untul, apoi punem laptele si amestecam. ",
+    text4:
+      "La final vom 'glazura' bucatile de ceafa cu sosul format in tava, iar peste piureul din farfurie putem presara putin patrunjel sau leustean desupra.",
+    img1: "/images/ceafa-porc1.jpg",
+    img2: "/images/ceafa-porc2.jpg",
+    img3: "/images/ceafa-porc3.jpg",
+    img4: "/images/ceafa-porc4.jpg",
+    img5: "/images/ceafa-porc5.jpg",
+    img6: "/images/ceafa-porc6.jpg",
+    img7: "/images/ceafa-porc.jpg",
+    category: "foods",
+    path: "/foods/",
+  },
+  {
+    id: 13,
+    title: "Prajitura Tavalita de post",
+    image: "/images/tavalita.jpg",
+    time: "1 ora si jumatate",
+    servings: 6,
+    describe:
+      "Prajitura Lamington, sau cum se cunoaste la noi „tavalita cu cocos si ciocolata” sau pur si simplu „tavalita”, este o prajitura de origine australiana, datand de peste 100 de ani.",
+    ingredients: [
+      { name: "faina", quantity: "400g" },
+      { name: "zahar", quantity: "350g" },
+      { name: "apa", quantity: "450ml" },
+      { name: "lapte de cocos", quantity: "150g" },
+      { name: "praf de copt", quantity: "1/2 plic" },
+      { name: "bicarbonat de sodiu", quantity: "1 lingurita" },
+      { name: "ulei", quantity: "100ml" },
+      { name: "cacao", quantity: "5 linguri" },
+      { name: "margarina", quantity: "250g" },
+      { name: "nuca de cocos", quantity: "200g" },
+    ],
+    text1:
+      "Se incalzeste cuptorul la 180 grade C (foc potrivit). O forma de aprox. 20 x 30cm. se unge si se presara cu faina sau se tapeteaza cu hartie de copt. Pentru blat, se amesteca apa minerala cu zahar, miere si ulei. Se cerne faina impreuna cu praful de copt, sarea si bicarbonatul si se adauga, amestecand energic, cu telul sau mixerul, in compozitia lichida. Se incorporeaza iaurtul sau laptele de soia ori de cocos si se amesteca totul foarte bine. Se obtine un aluat ca de chec, care se toarna in tava pregatita.",
+    text2:
+      "Prajitura se coace 25 de minute, dupa care se scade temperatura in cuptor la 165 grade C (foc mic) si se mai lasa cca. 10 minute. Se lasa apoi sa se raceasca la temperatura camerei. Se taie fasii blatul racit, apoi cubulete.  ",
+    text3:
+      "Pentru glazura de cacao, se pun intr-o cratita apa, zaharul, margarina si cacaua si se dau la fiert la foc mic, lasand sa fiarba cca. 10 minute de la primul clocot. Se obtine un sirop de cacao care se lasa sa se racoresca (nu se raceste complet!).",
+    text4:
+      "Cuburile de blat se trec prin glazura, apoi se tavalesc prin nuca de cocos. Se aseaza pe un platou pe un singur nivel si se serveste a doua zi.",
+    img1: "/images/tavalita1.jpg",
+    img2: "/images/tavalita2.jpg",
+    img3: "/images/tavalita3.jpg",
+    img4: "/images/tavalita4.jpg",
+    img5: "/images/tavalita5.jpg",
+    img6: "/images/tavalita6.jpg",
+    img7: "/images/tavalita7.jpg",
+    category: "fasting-sweets",
+    path: "/fasting-sweets/",
+  },
+  {
+    id: 14,
+    title: "Negresa de post",
+    image: "/images/negresa-post.jpg",
+    time: "45 minute",
+    servings: 10,
+    describe:
+      "Nascute dintr-o greseala pe la sfarsitul anilor 1880, negresele sunt la origine sunt americane si reprezinta un desert cu ciocolata facut cu putine ingrediente. ",
+    ingredients: [
+      { name: "apa", quantity: "250ml" },
+      { name: "zahar", quantity: "150g" },
+      { name: "ulei", quantity: "150ml" },
+      { name: "cacao", quantity: "3 linguri" },
+      { name: "praf de copt", quantity: 1 },
+      { name: "faina", quantity: "300g" },
+      { name: "nuci", quantity: "100g" },
+    ],
+    text1:
+      "Amestecati apa, zaharul si uleiul. Faina se amesteca cu praful de copt si cacao si se adauga la amestecul de mai sus.",
+    text2:
+      "Amestecati bine cu un tel sau mixer sa nu fie cocoloase, apoi adaugati gemul si mai amestecati o data.",
+    text3:
+      "Urmeaza nucile pisate si fructele uscate taiate bucati mai mici, dupa preferinta. Eu am pus caise si prune uscate. Amesetcati bine toata compozitia. Turnati aluatul intr-o tava de cuptor adanca asternuta cu hartie de copt - eu am folosit o tava rotunda de 28 cm diametru.",
+    text4:
+      "Puneti tava la cuptor pt 35-40 de min la o temperatura medie, eu am pus 200 de grade. Probati cu o scobitoare inainte s-o scoateti. Dupa ce s-a copt o lasati sa se raceasca complet apoi o taiati. Deasupra se poate turna si ciocolata topita.",
+    img1: "/images/negresa-post1.jpg",
+    img2: "/images/negresa-post2.jpg",
+    img3: "/images/negresa-post3.jpg",
+    img4: "/images/negresa-post4.jpg",
+    img5: "/images/negresa-post5.jpg",
+    img6: "/images/negresa-post6.jpg",
+    img7: "/images/negresa-post.jpg",
+    category: "fasting-sweets",
+    path: "/fasting-sweets/",
+  },
+  {
+    id: 15,
+    title: "Chec de post",
+    image: "/images/chec-post.jpg",
+    time: "1 ora si jumatate",
+    servings: 18,
+    describe:
+      "Checul este o prajitura realizata dintr-o compozitie obtinuta prin simpla amestecare a ingredientelor, coapta de obicei intr-o forma dreptunghiulara. ",
+    ingredients: [
+      { name: "apa minerala", quantity: "250ml" },
+      { name: "ulei", quantity: "100ml" },
+      { name: "zahar", quantity: "150g" },
+      { name: "faina", quantity: "500g" },
+      { name: "praf de copt", quantity: 1 },
+      { name: "gem de fructe", quantity: "3 linguri" },
+      { name: "cacao", quantity: "2 linguri" },
+    ],
+    text1:
+      "Punem intr-un bol apa minerala, uleiul si zaharul si amestecam ca sa dizolvam zaharul. Adaugam faina si praful de copt si amestecam pana la omogenizare. Adaugam coaja de lamaie si de portocala. Daca doriti puteti adauga vanilie in loc. Adaugam gemul si amestecam.",
+    text2:
+      "Oprim un sfert din compozitie deoparte si turnam compozitia ramasa in tava tapetata cu hartie de copt. Am folosit o tava de cozonac, daca aveti tavi mici, de chec, atunci veti obtine doua checuri.",
+    text3:
+      "In compozitia ramasa vom adauga cacao si omogenizam. Turnam in tava si compozitia cu cacao. Coacem checul in cuptorul preincalzit, la 180 grade, pentru circa 40 minute. Facem proba introducand o scobitoare, daca ramane aluat pe scobitoare atunci mai trebuie copt, daca scoatem scobitoarea curata, atunci checul nostru este gata.",
+    text4:
+      "Lasam jumatate de ora checul in tava, sa se racoareasca, apoi il scoatem cu grija, si il pudram cu zahar. Il lasam sa se raceasca complet si apoi il taiem felii.",
+    img1: "/images/chec-post1.jpg",
+    img2: "/images/chec-post2.jpg",
+    img3: "/images/chec-post3.jpg",
+    img4: "/images/chec-post4.jpg",
+    img5: "/images/chec-post.jpg",
+    img6: "/images/chec-post6.jpg",
+    img7: "/images/chec-post5.jpg",
+    category: "fasting-sweets",
+    path: "/fasting-sweets/",
+  },
+  {
+    id: 16,
+    title: "Strudel cu fructe de padure de post",
+    image: "/images/strudel-post.jpg",
+    time: "1 ora",
+    servings: 14,
+    describe:
+      "Istoria culinara spune ca strudelul e o prajitura traditionala austriaca, mai precis ca a fost creata intr-o veche patiserie vieneza, devenind ulterior, prajitura tipica a Imperiului Austro-Ungar. ",
+    ingredients: [
+      { name: "aluat de foitaj", quantity: "800g" },
+      { name: "fructe de padure", quantity: "300g" },
+      { name: "zahar", quantity: "150g" },
+      { name: "apa", quantity: "50ml" },
+    ],
+    text1:
+      "Punem fructele de padure congelate  intr-un vas impreuna cu zaharul si lasam pe foc pana capata consistenta unui sos gros. Dam deoparte si lasam sa se raceasca.",
+    text2:
+      "Dezghetam aluatul si il taiem in sase.  Lasam un spatiu in mijlocul aluatului unde vom pune umplutura iar pe laterale facem taieturi de circa 2 cm. Din cei 50 ml apa si 3 linguri de zahar facem un sirop. Ungem suprafata cu ajutorul unei pensule.",
+    text3:
+      "Punem in miloc umplutura (nu puneti foarte multa fiindca va curge la copt). Incepem sa impletim aducand fasiile laterale peste umplutura cat mai strans posibil. Presam capetele cu o furculita ca sa nu curga umplutura. Le asezam in tava tapetata cu hartie de copt si le ungem cu sirop.",
+    text4:
+      "Le dam la cuptor, la foc iute, pana se rumenesc. Se servesc reci,  eventual presarate cu zahar pudra.",
+    img1: "/images/strudel-post1.jpg",
+    img2: "/images/strudel-post2.jpg",
+    img3: "/images/strudel-post3.jpg",
+    img4: "/images/strudel-post4.jpg",
+    img5: "/images/strudel-post5.jpg",
+    img6: "/images/strudel-post.jpg",
+    img7: "/images/strudel-post7.jpg",
+    category: "fasting-sweets",
+    path: "/fasting-sweets/",
+  },
+  {
+    id: 17,
+    title: "Iahnie de fasole de post",
+    image: "/images/fasole-post.jpg",
+    time: "2 ore",
+    servings: 10,
+    describe:
+      "Iahnia de fasole sau fasolea scazuta, este o mancare traditionala romaneasca si se regaseste in mai toate zonele tarii. In special cu ocazia zilei nationale a Romaniei se serveste iahnie de fasole.",
+    ingredients: [
+      { name: "fasole", quantity: "1kg" },
+      { name: "usturoi", quantity: "3 catei de" },
+      { name: "ceapa", quantity: "2" },
+      { name: "ulei", quantity: "3 linguri" },
+      { name: "morcovi", quantity: "2" },
+      { name: "ardei gras", quantity: "1" },
+      { name: "bulion", quantity: "2 linguri" },
+      { name: "sare", quantity: "un praf de" },
+      { name: "marar", quantity: "1 legatura" },
+    ],
+    text1:
+      "Tocam marunt ceapa si usturoiul il curatam si il pisam. Le calim in trei linguri de ulei pana cand ceapa se inmoaie usor. Adaugam morcovul taiat cubulete foarte mici sau dat pe razatoarea mare si ardeiul tocat marunt. Le calim pana se inmoaie legumele.",
+    text2:
+      "Mai usor este sa aveti fasole la conserva (pe cea uscata trebuie sa o fierbeti aproximativ 2-3 ore, lasata la inmuiat, in prealabil, cu o seara inainte). Adaugam fasolea din conserva cu tot cu zeama, sarea, piperul, cimbrul si boiaua.",
+    text3:
+      "Optional, daca vreti mai mult sos, mai adaugati un pahar cu apa. Adaugam bulionul si fierbem circa 10 minute, pana capata consistenta unui sos. Dam deoparte si adaugam marar verde tocat marunt.",
+    text4: "Merge de minune cu ceapa rosie sau cu muraturi.",
+    img1: "/images/fasole-post1.jpg",
+    img2: "/images/fasole-post2.jpg",
+    img3: "/images/fasole-post3.jpg",
+    img4: "/images/fasole-post4.jpg",
+    img5: "/images/fasole-post5.jpg",
+    img6: "/images/fasole-post6.jpg",
+    img7: "/images/fasole-post.jpg",
+    category: "fasting-foods",
+    path: "/fasting-foods/",
+  },
+  {
+    id: 18,
+    title: "Pateuri cu ciuperci de post",
+    image: "/images/pateuri-post.jpg",
+    time: "40 minute",
+    servings: 14,
+    describe:
+      "Placinta cu ciuperci este ideala si pentru cei care tin post si pentru cei care nu tin post si inlocuieste cu succes o masa consistenta. ",
+    ingredients: [
+      { name: "aluat de foitaj", quantity: "400g" },
+      { name: "ciuperci", quantity: "2 cutii de" },
+      { name: "pesmet", quantity: "1 lingura" },
+      { name: "apa", quantity: "10ml" },
+      { name: "ceapa verde", quantity: "3 fire de" },
+      { name: "marar", quantity: "o legatura" },
+      { name: "margarina", quantity: "2 linguri" },
+      { name: "sare", quantity: "un praf de" },
+    ],
+    text1:
+      "Calim ceapa verde tocata marunt in margarina. Adaugam o cutie de ciuperci si le prajim usor.",
+    text2:
+      "Ciupercile din cea de a doua cutie la bagam la robot si le facem pasta. Adaugam pasta peste compozitia de ciuperci cu ceapa si le mai lasam pe foc 15 minute amestecand continuu. Asezonam cu sare si piper si adaugam pesmetul si mararul tocat marunt.",
+    text3:
+      "Punem foietajul pe suprafata de lucru bine  infainata si intindem o foaie subtire. Taiem foaia in doua pe lung astfel incat sa obtinem doua dreptunghiuri de aluat. Ungem cu putina apa si asezam un strat de compozitie pe marginea dreptunghiului. Rulam si asezam sulurile de aluat in tava tapetata cu hartie de copt. Indepartam cu o pensula curata excesul de faina.",
+    text4:
+      "Cu un cutit foarte bine ascutit  facem taieturi pe fiecare sul la distante aproximativ egale, obtinand astfel minipateurile. Ungem apoi cu putina apa si apoi presaram cu susan. Dam la cuptor, la foc mediu,  pana incep sa se rumeneasca.",
+    img1: "/images/pateuri-post1.jpg",
+    img2: "/images/pateuri-post2.jpg",
+    img3: "/images/pateuri-post3.jpg",
+    img4: "/images/pateuri-post4.jpg",
+    img5: "/images/pateuri-post5.jpg",
+    img6: "/images/pateuri-post6.jpg",
+    img7: "/images/pateuri-post.jpg",
+    category: "fasting-foods",
+    path: "/fasting-foods/",
+  },
+
+  {
+    id: 19,
+    title: "Salata orientala de post",
+    image: "/images/salata-post.jpg",
+    time: "30 minute",
+    servings: 8,
+    describe:
+      "In ciuda denumirii, salata orientala nu vine din orient ci se pare ca provine din Germania. Dar exista multe variante ale acestei salate, precum si retetele de post, iar fiecare pune in ea cam ce ii place.",
+    ingredients: [
+      { name: "cartofi", quantity: "500g" },
+      { name: "masline", quantity: "200g" },
+      { name: "ceapa", quantity: "2 bucati de" },
+      { name: "ulei", quantity: "2 linguri" },
+      { name: "otet", quantity: "2 linguri" },
+      { name: "sare", quantity: "un praf de" },
+      { name: "patrunjel", quantity: "o mana de" },
+    ],
+    text1:
+      "Fierbem cartofii in coaja, in apa cu putina sare. Cand sunt gata ii lasam sa se racoreasca, ii curatam de coaja si ii taiem cuburi. ",
+    text2: "Taiem ceapa fideluta si scurgem bine maslinele. ",
+    text3:
+      "Intr-un bol punem cartofii, ceapa, maslinele si adaugam gogosarii taiati fasii.",
+    text4:
+      "Asezonam cu sare, ulei si otet, amestecam si optional vom presara deasupra patrunjel verde tocat marunt. daca doriti puteti adauga si piper negru, proaspat macinat.",
+    img1: "/images/salata-post1.jpg",
+    img2: "/images/salata-post2.jpg",
+    img3: "/images/salata-post3.jpg",
+    img4: "/images/salata-post4.jpg",
+    img5: "/images/salata-post.jpg",
+    img6: "/images/salata-post6.jpg",
+    img7: "/images/salata-post7.jpg",
+    category: "fasting-foods",
+    path: "/fasting-foods/",
+  },
+  {
+    id: 20,
+    title: "Focaccia de post",
+    image: "/images/focaccia-post.jpg",
+    time: "30 minute",
+    servings: 6,
+    describe:
+      "Focaccia este un produs de panificatie specific bucatariei italiene, de obicei continand ulei de masline si ierburi aromatice si consumata drept aperitiv. Pe vremuri, focaccia era servita de sarbatori.",
+    ingredients: [
+      { name: "faina", quantity: "250g" },
+      { name: "apa", quantity: "150ml" },
+      { name: "ulei masline", quantity: "25ml" },
+      { name: "apa", quantity: "2 linguri" },
+      { name: "zahar", quantity: "1/2 lingurita" },
+      { name: "sare", quantity: "1/2 lingurita" },
+      { name: "drojdie uscata", quantity: "7g" },
+      { name: "oregano", quantity: "1/2 lingurita" },
+    ],
+    text1:
+      "Amestecam intr-un vas apa calduta, zaharul si uleiul apoi adaugam faina, sarea si drojdia. Framantam pana obtinem un aluat moale si nelipicios.",
+    text2:
+      "Ungem o tava rotunda cu diametrul de cca 26 cm cu ulei de masline. Aplatizam aluatul si il asezam in tava avand grija sa aiba ulei pe ambele parti ca sa nu formeze crusta. Se lasa sa creasca la loc cald pana isi dubleaza volumul.",
+    text3:
+      "Apasam aluatul cu degetele pana atingem fundul tavii aluatul intinzandu-se astfel pe toata suprafata tavii. Amestecam doua linguri ulei de masline cu doua linguri de apa si ungem pe toata suprafata.",
+    text4:
+      "Presaram oregano pe toata suprafata. Dam la cuptor pana se rumeneste usor.",
+    img1: "/images/focaccia-post.jpg",
+    img2: "/images/focaccia-post2.jpg",
+    img3: "/images/focaccia-post3.jpg",
+    img4: "/images/focaccia-post4.jpg",
+    img5: "/images/focaccia-post5.jpg",
+    img6: "/images/focaccia-post6.jpg",
+    img7: "/images/focaccia-post7.jpg",
+    category: "fasting-foods",
+    path: "/fasting-foods/",
+  },
+];
+
+export const getRecipeById = (recipeId) => {
+  recipesData.find((element) => element.id === Number(recipeId));
+};

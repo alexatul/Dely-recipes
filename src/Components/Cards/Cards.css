@@ -1,0 +1,131 @@
+.cards {
+  background-color: transparent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 0 auto;
+  flex: 9;
+}
+
+.card-describe {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 340px;
+  height: 520px;
+  box-shadow: 5px 5px 23px -2px rgba(0, 0, 0, 0.74);
+}
+
+.cards img {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  height: 260px;
+  object-fit: cover;
+}
+
+.card-image {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+}
+
+.overlay {
+  font-family: "Dancing Script", cursive;
+  font-size: 28px;
+  position: absolute;
+  bottom: 4px;
+  background: rgba(0, 0, 0, 0.497);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: rgb(82, 182, 193);
+  padding: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.card-image .overlay {
+  opacity: 1;
+}
+
+.card-container p {
+  font-size: 16px;
+  color: #e4c873;
+  text-align: center;
+  line-height: 22px;
+  word-spacing: 4px;
+  padding: 20px;
+}
+
+.button-card {
+  align-items: center;
+  text-transform: uppercase;
+  color: #e4c873;
+  font-size: 16px;
+  border: 1.5px solid #e4c873;
+  border-radius: 6px;
+}
+
+.button-more span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-more span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-more:hover span {
+  padding-right: 25px;
+  color: #e4c873;
+}
+
+.button-more:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.card-button-info {
+  color: #e4c873;
+}
+
+@media screen and (max-width: 850px) {
+  .card-container p {
+    font-size: 14px;
+  }
+  .overlay {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card-container p {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  .overlay {
+    font-size: 24px;
+  }
+  .card-describe {
+    max-width: 250px;
+  }
+  .card-image img {
+    height: 230px;
+  }
+  .button-card {
+    font-size: 12px;
+  }
+  .button-more {
+    padding: 12px;
+  }
+}

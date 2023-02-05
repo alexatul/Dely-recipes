@@ -1,0 +1,48 @@
+.fasting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  gap: 30px;
+}
+
+.fasting button {
+  position: relative;
+  font-size: 18px;
+  text-decoration: none;
+  color: #e4c873;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 0 #f1c40f;
+  border: none;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.button-fasting span {
+  position: relative;
+  display: inline-block;
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.button-fasting span:after {
+  content: "\27B1";
+  position: absolute;
+  padding: 8px 0;
+  opacity: 0;
+  top: 0;
+  right: 30px;
+  transition: 0.5s;
+}
+
+.button-fasting:hover span {
+  box-shadow: inset 300px 0 0 0 #f1c40f;
+  color: #23232d;
+  padding-right: 25px;
+  border-radius: 6px;
+}
+
+.button-fasting:hover span:after {
+  opacity: 1;
+  right: 0;
+}

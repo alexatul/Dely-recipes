@@ -1,0 +1,13 @@
+.home {
+  position: relative;
+}
+
+.home h2 {
+  margin-top: 30px;
+}
+
+.middle-home {
+  display: flex;
+  padding: 50px 20px;
+  margin-top: 30px;
+}
